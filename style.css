@@ -1,4 +1,4 @@
-﻿/* * IMPORTANT: All existing styles from the user's provided structure.html are preserved.
+/* * IMPORTANT: All existing styles from the user's provided structure.html are preserved.
       * ONLY new styles required for the "UPDATES" button and modal are added below this line.
       */
 body {
@@ -161,7 +161,7 @@ button:hover {
     text-align: center;
 }
 
-/* âœ… Extra support for small screen (mobile) */
+/* ✅ Extra support for small screen (mobile) */
 @media (max-width: 600px) {
     .download-btn {
         font-size: 16px;
@@ -573,6 +573,16 @@ button:hover {
     max-width: 200px;
     box-sizing: border-box;
     transition: all 0.3s ease;
+    background-color: #ffffff;
+    color: #111827;
+    -webkit-text-fill-color: #111827;
+    caret-color: #111827;
+    opacity: 1;
+}
+
+.csat-modal-content input::placeholder {
+    color: #9ca3af;
+    -webkit-text-fill-color: #9ca3af;
 }
 
 .csat-modal-content input:focus,
@@ -2324,10 +2334,10 @@ button:hover {
     white-space: normal;
     position: relative;
     padding-right: 24px;
-    /* âŒ button ke liye jagah */
+    /* ❌ button ke liye jagah */
 }
 
-/* âŒ Delete button ke position aur size fix karna */
+/* ❌ Delete button ke position aur size fix karna */
 #chatMessages .group button {
     position: absolute;
     top: 4px;
@@ -2358,7 +2368,7 @@ button:hover {
     white-space: normal;
     position: relative;
     padding: 10px 24px 10px 10px;
-    /* right me jagah âŒ button ke liye */
+    /* right me jagah ❌ button ke liye */
     border-radius: 8px;
     display: inline-block;
 }
@@ -2932,7 +2942,7 @@ button:hover {
 }
 
 /* ========================================
-   ðŸŽ® Memory Card Game Styles
+   🎮 Memory Card Game Styles
    ======================================== */
 
 .memory-game-overlay {
@@ -3283,7 +3293,7 @@ button:hover {
 }
 
 /* ========================================
-   ðŸŽ® Game Hub & Mini Games Styles
+   🎮 Game Hub & Mini Games Styles
    ======================================== */
 
 .game-hub-container {
@@ -5243,7 +5253,7 @@ button:hover {
 }
 
 /* ============================================= */
-/* ðŸŽµ SONGS HUB - Premium Rotating Carousel     */
+/* 🎵 SONGS HUB - Premium Rotating Carousel     */
 /* ============================================= */
 .songs-hub-overlay {
     display: none;
@@ -7188,7 +7198,7 @@ outline: none;
 }
 
 /* =========================================================
-   INSURER WISE PLAN PAGE â€” Light & Simple
+   INSURER WISE PLAN PAGE — Light & Simple
    ========================================================= */
 
 .insurer-wise-plan-page {
